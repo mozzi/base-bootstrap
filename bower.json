@@ -1,0 +1,10 @@
+{
+  "name": "Hasher",
+  "private": true,
+  "dependencies": {
+    "modernizr": ">=2.7.1",
+    "jquery": ">=2.0.3",
+    "bootstrap": "~3.0.3"
+  },
+  "devDependencies": {}
+}

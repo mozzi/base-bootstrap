@@ -1,0 +1,28 @@
+//
+// Responsive: Utility classes
+// --------------------------------------------------
+
+
+// Responsive text aligns
+
+.ta-l{ text-align: left; }
+.ta-r{ text-align: right; }
+.ta-c{ text-align: center; }
+
+@include respond-to(screen-xs){
+    .ta-l-xs{ text-align: left; }
+    .ta-r-xs{ text-align: right; }
+    .ta-c-xs{ text-align: center; }
+}
+
+@include respond-to(screen-sm){
+    .ta-l-sm{ text-align: left; }
+    .ta-r-sm{ text-align: right; }
+    .ta-c-sm{ text-align: center; }
+}
+
+@include respond-to(screen-md){
+    .ta-l-md{ text-align: left; }
+    .ta-r-md{ text-align: right; }
+    .ta-c-md{ text-align: center; }
+}

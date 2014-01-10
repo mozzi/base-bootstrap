@@ -1,0 +1,61 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+// Normalize non-controls
+//
+// Restyle and baseline non-control form elements.
+
+label {
+    font-weight: 400;
+}
+
+
+// Normalize form controls
+
+// Disable spinners in number inputs
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin-right: 0;
+}
+
+// Reset height for `textarea`s
+textarea.form-control {
+    resize: vertical;
+}
+
+
+
+// FORM FIELD FEEDBACK STATES
+// --------------------------
+// HTML5 invalid states
+//TODO: if updating bootstrap, original invalid styles must be removed
+input:user-error, textarea:user-error, select:user-error{
+  border-color: #ee5f5b;
+  //&:focus {
+  //  border-color: darken(#ee5f5b, 10%);
+  //  @include box-shadow(0 0 6px lighten(#ee5f5b, 20%));
+  //}
+}
+
+input.user-error, textarea.user-error, select.user-error{
+    border-color: #ee5f5b;
+}
+
+
+// Horizontal forms
+//
+// Horizontal forms are built on grid classes and allow you to create forms with
+// labels on the left and inputs on the right.
+
+.form-horizontal {
+    .form-group {
+        margin-left:  ($grid-gutter-width / -2);
+        margin-right: ($grid-gutter-width / -2);
+    }
+
+    .control-label{ padding-right: 0; }
+}
+

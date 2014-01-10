@@ -1,0 +1,19 @@
+#IDE
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/compass_library.xml
+.idea/deployment.xml
+.idea/dictionaries
+
+#sass temporary files
+.sass-cache
+
+#node.js modules
+node_modules
+
+#Temporary files
+.tmp
+Thumbs.db
+
+#Bower packages
+assets/js/vendor/bower_components
