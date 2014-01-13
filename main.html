@@ -13,56 +13,7 @@
 <body>
 
 <div class="container">
-  <div class="page-header">
-    <h1>Hasher</h1>
-  </div>
 
-  <div class="page-content">
-    <section class="panel panel-default">
-      <div class="panel-heading">
-        <h2>MD5 & SHA1 Hash Generator For Text</h2>
-      </div>
-
-      <div class="panel-body">
-        <form class="form-horizontal" action="">
-          <div class="form-group">
-            <div class="col-sm-12">
-              <label class="control-label" for="textInput">Generate the hash of the text:</label>
-              <textarea ng-model="textInput" class="form-control" name="textInput" id="textInput" rows="10" placeholder="Text to encode"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-2">Checksum type</label>
-            <div class="col-sm-10">
-              <div class="btn-group" data-toggle="buttons">
-                <label class="btn btn-primary">
-                  <input type="radio" name="options" id="md5"> MD5
-                </label>
-                <label class="btn btn-primary">
-                  <input type="radio" name="options" id="sha1"> SHA1
-                </label>
-                <label class="btn btn-primary">
-                  <input type="radio" name="options" id="sha-256"> SHA-256
-                </label>
-                <label class="btn btn-primary">
-                  <input type="radio" name="options" id="sha-512"> SHA-512
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div class="well">
-            <div class="form-group">
-              <div class="col-sm-12">
-                <label class="control-label" for="hashResult">Hash result:</label>
-                <input class="form-control" id="hashResult" type="text" value="{{textInput}}"/>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-  </div>
 </div>
 
 <script src="assets/js/dist/jquery.min.js"></script>

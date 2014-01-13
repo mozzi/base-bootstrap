@@ -15,7 +15,9 @@
 // Core variables and mixins
 @import "../variables";
 @import "bootstrap/original/variables";
+@import "bootstrap/theme/variables";
 @import "bootstrap/original/mixins";
+@import "bootstrap/theme/mixins";
 @import "../mixins";
 
 // Reset
