@@ -9,19 +9,19 @@
 .ta-r{ text-align: right; }
 .ta-c{ text-align: center; }
 
-@include respond-to(screen-xs){
+@include respond-to($screen-xs-min){
     .ta-l-xs{ text-align: left; }
     .ta-r-xs{ text-align: right; }
     .ta-c-xs{ text-align: center; }
 }
 
-@include respond-to(screen-sm){
+@include respond-to($screen-sm-min){
     .ta-l-sm{ text-align: left; }
     .ta-r-sm{ text-align: right; }
     .ta-c-sm{ text-align: center; }
 }
 
-@include respond-to(screen-md){
+@include respond-to($screen-md-min){
     .ta-l-md{ text-align: left; }
     .ta-r-md{ text-align: right; }
     .ta-c-md{ text-align: center; }

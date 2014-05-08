@@ -1,16 +1,18 @@
 Javascript
 ==========
 
-If you need to update libraries you need to install and run bower::
+If you need to update libraries you need to install node.js and bower::
+
+    ~/ npm install -g bower
 
     ~/project-dir/$ npm install --save-dev
 
     ~/project-dir/$ bower install
 
 
-After that you need to run grunt script to concat and minify all necessary files::
+After that you need to run gulp script to concat and minify all necessary files::
 
-    ~/project-dir/$ grunt
+    ~/project-dir/$ gulp
 
 
 SASS and Compass Conventions

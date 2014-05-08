@@ -14,6 +14,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.4)
       sass (>= 3.2, < 3.5)
+    ffi (1.9.3)
     ffi (1.9.3-x86-mingw32)
     json (1.8.1)
     listen (1.1.6)
@@ -28,7 +29,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
-    sass (3.3.2)
+    sass (3.3.4)
     wdm (0.1.0)
 
 PLATFORMS
@@ -37,5 +38,5 @@ PLATFORMS
 DEPENDENCIES
   compass (= 1.0.0.alpha.19)
   oily_png
-  sass (= 3.3.2)
+  sass (= 3.3.4)
   wdm (~> 0.1.0)
