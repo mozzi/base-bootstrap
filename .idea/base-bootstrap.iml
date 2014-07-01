@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassConfigPath" value="D:\xampp\htdocs\forks.xx\www\base-bootstrap\assets\sass\config.rb" />
+    <option name="compassExecutableFilePath" value="D:/devtools/Ruby200/bin/compass.bat" />
+    <option name="compassSupportEnabled" value="true" />
+    <option name="importPaths">
+      <list>
+        <option value="D:/devtools/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets" />
+      </list>
+    </option>
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Node.js Dependencies for base-bootstrap" level="project" />
     <orderEntry type="library" name="sass-stdlib" level="application" />
+    <orderEntry type="library" name="compass-library" level="project" />
   </component>
 </module>
 
