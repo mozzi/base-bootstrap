@@ -1,0 +1,17 @@
+@import "compass/utilities";
+
+.sprite{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+////common icons
+//@import 'sprites/sprite/*.png';
+//@include all-sprite-sprites;
+//
+//@each $icon in (check-circle refresh){
+//  .sprite-#{$icon}{
+//    height: 19px;
+//    width: 20px;
+//  }
+//}

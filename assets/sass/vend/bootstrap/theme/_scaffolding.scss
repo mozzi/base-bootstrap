@@ -10,6 +10,15 @@ html {
 
 // Links
 // -------------------------
-a:focus {
-  outline: none;
+a{
+  @include transition-property(color, background-color, border-color, opacity);
+  @include transition-duration(0.3s);
+
+  &:hover{ text-decoration: none; }
+}
+
+a, button{
+  &:focus {
+    outline: none;
+  }
 }

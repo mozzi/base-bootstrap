@@ -14,13 +14,14 @@
 @import "original/normalize";
 @import "theme/normalize";
 //@import "original/print";
-@import "original/glyphicons";
+//@import "original/glyphicons";
 
 // Core CSS
 @import "original/scaffolding";
 @import "theme/scaffolding";
 @import "original/type";
-@import "original/code";
+@import "theme/type";
+//@import "original/code";
 @import "original/grid";
 @import "original/tables";
 @import "original/forms";
@@ -33,7 +34,7 @@
 @import "original/button-groups";
 @import "original/input-groups";
 @import "original/navs";
-//@import "original/navbar";
+@import "original/navbar";
 //@import "original/breadcrumbs";
 @import "original/pagination";
 @import "original/pager";
